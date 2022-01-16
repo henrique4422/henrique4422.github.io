@@ -122,7 +122,6 @@ html, body
 
 .historico {
   display: flex;
-  flex-wrap: wrap;
 }
 
 .logo {
@@ -183,13 +182,15 @@ html, body
 
 .logoFoot{
   width: 50px;
+  text-align: center;
 }
 
 footer .links:hover{
    color: red;
 }
 
-.contatoMidias{
-  margin-left: 300px;
+@media (max-width: 975px) {
+  .historico {
+    flex-wrap: wrap;
+  }
 }
-
