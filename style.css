@@ -1,4 +1,7 @@
 /* Inicio Reset CSS */
+* {
+  box-sizing: border-box;
+}
 html, body
 {
 	margin: 0;
@@ -109,12 +112,17 @@ html, body
   
 }
 
+.img {
+  width: -moz-available;
+}
 .resumo{
   border-top: solid 2px rgb(10, 1, 116);
+  flex-wrap: wrap;
 }
 
 .historico {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .logo {
