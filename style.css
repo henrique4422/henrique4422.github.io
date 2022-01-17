@@ -1,7 +1,4 @@
 /* Inicio Reset CSS */
-* {
-  box-sizing: border-box;
-}
 html, body
 {
 	margin: 0;
@@ -112,12 +109,8 @@ html, body
   
 }
 
-.img {
-  width: -moz-available;
-}
 .resumo{
   border-top: solid 2px rgb(10, 1, 116);
-  flex-wrap: wrap;
 }
 
 .historico {
@@ -182,15 +175,13 @@ html, body
 
 .logoFoot{
   width: 50px;
-  text-align: center;
 }
 
 footer .links:hover{
    color: red;
 }
 
-@media (max-width: 975px) {
-  .historico {
-    flex-wrap: wrap;
-  }
+.contatoMidias{
+  margin-left: 300px;
 }
+
