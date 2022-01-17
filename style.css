@@ -1,4 +1,7 @@
 /* Inicio Reset CSS */
+* {
+  box-sizing: border-box;
+}
 html, body
 {
 	margin: 0;
@@ -7,6 +10,7 @@ html, body
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+  overflow-wrap: break-word;
 }
 /* Fim Reset CSS */
 
@@ -55,6 +59,7 @@ html, body
 .tituloPage{
   text-align: center;
   margin: 0 auto;
+  font-size: 100%;
 }
 
 .nameDiv {
@@ -93,7 +98,7 @@ html, body
 
 .dadosDiv{
   font-family: ptSansFont;
-  
+  overflow: auto;
 }
 
 .links{
@@ -109,8 +114,12 @@ html, body
   
 }
 
+.img {
+  width: 80vw;
+}
 .resumo{
   border-top: solid 2px rgb(10, 1, 116);
+  flex-wrap: wrap;
 }
 
 .historico {
@@ -153,6 +162,10 @@ html, body
   color: rgba(10, 1, 116, 0.8);;
 }
 
+.imgDesenvolvido{
+  width: 60vw !important;
+}
+
 .contato{
   background-color:rgb(10, 1, 116);
   margin:1.5em 3em 1em 1.5em;
@@ -175,13 +188,34 @@ html, body
 
 .logoFoot{
   width: 50px;
+  text-align: center;
 }
 
 footer .links:hover{
    color: red;
 }
 
-.contatoMidias{
-  margin-left: 300px;
+@media (max-width: 975px) {
+  .historico {
+    flex-wrap: wrap;
+  }
 }
 
+@media (max-width:350px) {
+  .tituloPage {
+    font-size: 45%;
+  }
+
+  .img {
+    width: 60vw;
+  }
+
+  .linkFoot {
+    position: absolute;
+    margin-top: 90px;
+  }
+
+  .linkFoot .links {
+    color: black;
+  }
+}
