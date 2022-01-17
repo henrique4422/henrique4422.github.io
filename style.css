@@ -115,8 +115,9 @@ html, body
 }
 
 .img {
-  width: 80vw;
+  width: 60vw;
 }
+
 .resumo{
   border-top: solid 2px rgb(10, 1, 116);
   flex-wrap: wrap;
@@ -149,6 +150,10 @@ html, body
 
 .cargoGZ{
   margin-top:20px ;
+}
+
+.imgRPA {
+  width: auto;
 }
 
 .atividades {
@@ -206,7 +211,7 @@ footer .links:hover{
     font-size: 45%;
   }
 
-  .img {
+  .imgRPA {
     width: 60vw;
   }
 
