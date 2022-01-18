@@ -206,7 +206,7 @@ footer .links:hover{
   }
 }
 
-@media (max-width:550px) {
+@media (max-width:1000px) {
   .tituloPage {
     font-size: 45%;
   }
