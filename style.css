@@ -206,6 +206,25 @@ footer .links:hover{
   }
 }
 
+@media (max-width:620px) {
+  .tituloPage {
+    font-size: 45%;
+  }
+
+  .imgRPA {
+    width: 60vw;
+  }
+
+  .linkFoot {
+    position: absolute;
+    margin-top: 90px;
+  }
+
+  .linkFoot .links {
+    color: black;
+  }
+}
+
 @media (max-width:460px) {
   .tituloPage {
     font-size: 45%;
